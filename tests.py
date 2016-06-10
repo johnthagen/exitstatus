@@ -17,6 +17,10 @@ class ExitStatusTestCase(unittest.TestCase):
         self.assertIs(ExitStatus.success, ExitStatus.success)
         self.assertIsNot(ExitStatus.success, ExitStatus.failure)
 
-    def test_exit(self):
+    def test_sys_exit(self):
         with self.assertRaises(SystemExit):
             sys.exit(ExitStatus.success)
+
+    def test_exit(self):
+        with self.assertRaises(SystemExit):
+            exit(ExitStatus.success)
