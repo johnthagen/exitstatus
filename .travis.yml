@@ -5,6 +5,10 @@ language: python
 python:
   - 3.5
 
+os:
+  - linux
+  - osx
+
 # Environment changes have to be manually synced with 'tox.ini'.
 # See: https://github.com/travis-ci/travis-ci/issues/3024
 env:
