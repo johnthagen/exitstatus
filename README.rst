@@ -63,6 +63,11 @@ Exit status codes are defined in a simple to use
 Releases
 --------
 
+1.1.0 - 2016-10-11
+^^^^^^^^^^^^^^^^^^
+
+Add docstrings and simplify checking for ``enum34`` dependency need.
+
 1.0.0 - 2016-06-10
 ^^^^^^^^^^^^^^^^^^
 
