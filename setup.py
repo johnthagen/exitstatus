@@ -1,11 +1,10 @@
+import sys
+
 import setuptools
 
 install_requires = []
-try:
-    import enum  # noqa
-except ImportError:
+if sys.version_info < (3, 4):
     install_requires.append('enum34')
-
 
 setuptools.setup(
     name='exitstatus',
