@@ -63,7 +63,7 @@ Exit status codes are defined in a simple to use
 Releases
 --------
 
-1.1.0 - 2016-12-31
+1.2.0 - 2016-12-31
 ^^^^^^^^^^^^^^^^^^
 
 Support Python 3.6.
