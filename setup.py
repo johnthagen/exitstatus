@@ -8,7 +8,7 @@ if sys.version_info < (3, 4):
 
 setuptools.setup(
     name='exitstatus',
-    version='1.1.0',
+    version='1.2.0',
 
     description='POSIX exit status codes',
     long_description=open('README.rst').read(),
@@ -34,5 +34,8 @@ setuptools.setup(
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: Implementation :: CPython',
+        'Programming Language :: Python :: Implementation :: PyPy',
     ],
 )
