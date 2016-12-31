@@ -13,12 +13,8 @@ matrix:
         - python: 3.6
           env: TOXENV=py36
 
-os:
-  - linux
-  - osx
-
 install:
-  - pip install tox
+    - pip install tox
 
 script:
   tox
