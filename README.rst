@@ -22,9 +22,6 @@
 .. image:: https://img.shields.io/pypi/pyversions/exitstatus.svg
     :target: https://pypi.python.org/pypi/exitstatus/
 
-.. image:: https://img.shields.io/pypi/dm/exitstatus.svg
-    :target: https://pypi.python.org/pypi/exitstatus/
-
 ``exitstatus`` provides expressive, portable definitions for the
 `standard POSIX exit codes <https://www.gnu.org/software/libc/manual/html_node/Exit-Status.html>`__.
 While Python does provide some Unix-specific exit status codes in the
