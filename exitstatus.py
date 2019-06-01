@@ -3,6 +3,7 @@
 import enum
 
 
+@enum.unique
 class ExitStatus(enum.IntEnum):
     """Portable definitions for the standard POSIX exit codes."""
 
