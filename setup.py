@@ -8,7 +8,7 @@ if sys.version_info < (3, 4):
 
 setuptools.setup(
     name='exitstatus',
-    version='1.3.0',
+    version='1.4.0',
 
     description='POSIX exit status codes',
     long_description=open('README.rst').read(),

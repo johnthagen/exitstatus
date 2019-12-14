@@ -60,8 +60,8 @@ Exit status codes are defined in a simple to use
 Releases
 --------
 
-Unreleased
-^^^^^^^^^^
+1.4.0 2019-12-14
+^^^^^^^^^^^^^^^^
 
 - Drop Python 3.4 and support Python 3.8.
 - Include license file.
