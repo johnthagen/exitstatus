@@ -1,0 +1,6 @@
+pytest
+pytest-cov
+flake8
+pep8-naming
+flake8-quotes
+flake8-import-order
