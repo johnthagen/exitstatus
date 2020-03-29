@@ -1,17 +1,15 @@
-import sys
+from pathlib import Path
 
 import setuptools
 
-install_requires = []
-if sys.version_info < (3, 4):
-    install_requires.append('enum34')
+project_dir = Path(__file__).parent
 
 setuptools.setup(
     name='exitstatus',
-    version='1.4.1',
+    version='2.0.0',
 
     description='POSIX exit status codes',
-    long_description=open('README.rst').read(),
+    long_description=project_dir.joinpath('README.rst').read_text(encoding='utf-8'),
     keywords='exit status POSIX',
 
     author='John Hagen',
@@ -19,8 +17,7 @@ setuptools.setup(
     url='https://github.com/johnthagen/exitstatus',
 
     py_modules=['exitstatus'],
-    install_requires=install_requires,
-    python_requires='>=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*',
+    python_requires='>=3.5',
     zip_safe=False,
 
     license='MIT',
@@ -30,9 +27,8 @@ setuptools.setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3 :: Only',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
