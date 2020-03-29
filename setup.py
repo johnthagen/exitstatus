@@ -9,7 +9,7 @@ setuptools.setup(
     version='2.0.0',
 
     description='POSIX exit status codes',
-    long_description=project_dir.joinpath('README.rst').read_text(encoding="utf-8"),
+    long_description=project_dir.joinpath('README.rst').read_text(encoding='utf-8'),
     keywords='exit status POSIX',
 
     author='John Hagen',
