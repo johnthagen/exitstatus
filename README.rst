@@ -40,10 +40,6 @@ You can install, upgrade, and uninstall ``exitstatus`` with these commands:
     $ pip install --upgrade exitstatus
     $ pip uninstall exitstatus
 
-On Python 3.4+, the standard library
-`enum <https://docs.python.org/3/library/enum.html>`__ is used, on older versions
-`enum34 <https://pypi.python.org/pypi/enum34>`__ is installed as a dependency.
-
 Usage
 -----
 
@@ -59,6 +55,11 @@ Exit status codes are defined in a simple to use
 
 Releases
 --------
+
+2.0.0 2020-03-29
+^^^^^^^^^^^^^^^^
+
+- Drop Python 2.7 support.
 
 1.4.1 2020-03-29
 ^^^^^^^^^^^^^^^^
