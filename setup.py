@@ -17,12 +17,14 @@ setuptools.setup(
     author='John Hagen',
     author_email='johnthagen@gmail.com',
     url='https://github.com/johnthagen/exitstatus',
-    license='MIT',
+
     py_modules=['exitstatus'],
     install_requires=install_requires,
-
+    python_requires='>=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*',
     zip_safe=False,
 
+    license='MIT',
+    license_files=['LICENSE.txt'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'License :: OSI Approved :: MIT License',

@@ -60,6 +60,11 @@ Exit status codes are defined in a simple to use
 Releases
 --------
 
+1.4.1 2020-03-29
+^^^^^^^^^^^^^^^^
+
+- Add ``python_requires`` field to ``setup.py``.
+
 1.4.0 2019-12-14
 ^^^^^^^^^^^^^^^^
 

@@ -14,6 +14,8 @@ matrix:
           env: TOXENV=py38
         - python: 3.8
           env: TOXENV=pep8
+        - python: 3.8
+          env: TOXENV=mypy
         - python: pypy
           env: TOXENV=pypy
         - python: pypy3
