@@ -6,7 +6,7 @@ project_dir = Path(__file__).parent
 
 setuptools.setup(
     name='exitstatus',
-    version='2.0.0',
+    version='2.0.1',
 
     description='POSIX exit status codes',
     long_description=project_dir.joinpath('README.rst').read_text(encoding='utf-8'),

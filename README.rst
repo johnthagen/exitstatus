@@ -56,6 +56,11 @@ Exit status codes are defined in a simple to use
 Releases
 --------
 
+2.0.1 2020-04-26
+^^^^^^^^^^^^^^^^
+
+- Update LICENSE file.
+
 2.0.0 2020-03-29
 ^^^^^^^^^^^^^^^^
 
