@@ -56,10 +56,11 @@ Exit status codes are defined in a simple to use
 Releases
 --------
 
-Unreleased
-^^^^^^^^^^
+2.1.0 2020-12-27
+^^^^^^^^^^^^^^^^
 
-- Drop Python 3.5 support.
+- Drop Python 3.5 and support Python 3.9.
+- Switch to GitHub Actions for CI.
 
 2.0.1 2020-04-26
 ^^^^^^^^^^^^^^^^
