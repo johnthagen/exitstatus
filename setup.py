@@ -6,7 +6,7 @@ project_dir = Path(__file__).parent
 
 setuptools.setup(
     name="exitstatus",
-    version="2.0.1",
+    version="2.1.0",
     description="POSIX exit status codes",
     long_description=project_dir.joinpath("README.rst").read_text(encoding="utf-8"),
     keywords="exit status POSIX",
@@ -28,6 +28,7 @@ setuptools.setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: Implementation :: CPython",
         "Programming Language :: Python :: Implementation :: PyPy",
     ],
