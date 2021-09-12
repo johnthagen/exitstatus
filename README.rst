@@ -1,8 +1,8 @@
 ``exitstatus`` - POSIX exit status definitions
 ==============================================
 
-.. image:: https://travis-ci.com/johnthagen/exitstatus.svg
-    :target: https://travis-ci.com/johnthagen/exitstatus/
+.. image:: https://github.com/johnthagen/exitstatus/workflows/python/badge.svg
+    :target: https://github.com/johnthagen/exitstatus/actions
 
 .. image:: https://codeclimate.com/github/johnthagen/exitstatus/badges/gpa.svg
    :target: https://codeclimate.com/github/johnthagen/exitstatus/
