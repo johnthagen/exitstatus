@@ -56,6 +56,11 @@ Exit status codes are defined in a simple to use
 Releases
 --------
 
+2.2.0 2021-11-06
+^^^^^^^^^^^^^^^^
+
+- Support Python 3.10 and drop 3.6.
+
 2.1.0 2020-12-27
 ^^^^^^^^^^^^^^^^
 
