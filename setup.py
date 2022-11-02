@@ -6,14 +6,15 @@ project_dir = Path(__file__).parent
 
 setuptools.setup(
     name="exitstatus",
-    version="2.2.0",
+    version="2.3.0",
     description="POSIX exit status codes",
     long_description=project_dir.joinpath("README.rst").read_text(encoding="utf-8"),
     keywords="exit status POSIX",
     author="John Hagen",
     author_email="johnthagen@gmail.com",
     url="https://github.com/johnthagen/exitstatus",
-    py_modules=["exitstatus"],
+    packages=["exitstatus"],
+    package_data={"exitstatus": ["py.typed"]},
     python_requires=">=3.7",
     zip_safe=False,
     license="MIT",
@@ -29,5 +30,6 @@ setuptools.setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
+        "Typing :: Typed",
     ],
 )
