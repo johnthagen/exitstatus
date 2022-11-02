@@ -1,8 +1,12 @@
 tox
+
 pytest
 pytest-cov
+
 mypy
+
 flake8
 pep8-naming
+
 black
 isort

@@ -56,6 +56,13 @@ Exit status codes are defined in a simple to use
 Releases
 --------
 
+2.3.0 2022-11-02
+^^^^^^^^^^^^^^^^
+
+- Add ``py.typed`` file to package to support Mypy type checking.
+- Refactor the project into an installable package rather than an installable module.
+- Drop support for Python 3.7
+
 2.2.0 2021-11-06
 ^^^^^^^^^^^^^^^^
 
