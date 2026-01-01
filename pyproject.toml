@@ -54,8 +54,7 @@ default-groups = "all"
 [tool.mypy]
 ignore_missing_imports = true
 strict = true
-# IntEnum members can be compared to integers at runtime, but mypy's strict mode
-# treats them as non-overlapping types. Disable this specific check.
+# TODO: Remove this once Mypy bug is resolved: https://github.com/python/mypy/issues/16327
 disable_error_code = ["comparison-overlap"]
 
 [tool.ruff]
