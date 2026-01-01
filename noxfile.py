@@ -16,6 +16,7 @@ def test(s: Session) -> None:
         "--cov=exitstatus",
         "--cov-report=html",
         "--cov-report=term",
+        "--cov-fail-under=100",
         "tests",
         *s.posargs,
     )
