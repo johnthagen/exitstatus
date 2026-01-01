@@ -67,4 +67,4 @@ def lint_fix(s: Session) -> None:
 
 @session(venv_backend="none")
 def type_check(s: Session) -> None:
-    s.run("mypy", "exitstatus", "tests", "noxfile.py")
+    s.run("mypy", "src", "tests", "noxfile.py")
