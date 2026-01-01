@@ -1,6 +1,6 @@
 # exitstatus — POSIX exit status definitions
 
-[![GitHub Actions][github-actions-badge](https://github.com/johnthagen/exitstatus/actions)
+[![GitHub Actions][github-actions-badge]](https://github.com/johnthagen/exitstatus/actions)
 [![Codecov](https://codecov.io/github/johnthagen/exitstatus/coverage.svg)](https://codecov.io/github/johnthagen/exitstatus/)
 [![PyPI version](https://img.shields.io/pypi/v/exitstatus.svg)](https://pypi.python.org/pypi/exitstatus/)
 [![PyPI status](https://img.shields.io/pypi/status/exitstatus.svg)](https://pypi.python.org/pypi/exitstatus/)
