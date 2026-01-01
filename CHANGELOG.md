@@ -1,10 +1,11 @@
 ## Changelog
 
-### Unreleased
+### 2.7.0 (2026-01-01)
 
 - Converted README to Markdown.
 - Split changes into CHANGLELOG.md.
 - Drop support for Python 3.9, add support for Python 3.14.
+- Convert to uv, Ruff, and Nox.
 
 ### 2.6.0 (2024-10-26)
 
