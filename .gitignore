@@ -1,14 +1,15 @@
 *.egg-info
 .idea
 build/
-dist
+dist/
 __pycache__
 .cache
 .tox
 .coverage
 coverage.xml
 htmlcov/
-venv
+venv/
+.venv/
 .mypy_cache
 .nox
 .ruff_cache
