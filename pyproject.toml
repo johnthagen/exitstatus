@@ -1,6 +1,6 @@
 [project]
 name = "exitstatus"
-version = "2.6.0"
+version = "2.7.0"
 description = "POSIX exit status codes"
 authors = [
     { name = "John Hagen", email = "johnthagen@gmail.com" }
