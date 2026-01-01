@@ -4,6 +4,7 @@
 
 - Converted README to Markdown.
 - Split changes into CHANGLELOG.md.
+- Drop support for Python 3.9, add support for Python 3.14.
 
 ### 2.6.0 (2024-10-26)
 
