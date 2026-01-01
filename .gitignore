@@ -4,7 +4,6 @@ build/
 dist/
 __pycache__
 .cache
-.tox
 .coverage
 coverage.xml
 htmlcov/
@@ -13,4 +12,3 @@ venv/
 .mypy_cache
 .nox
 .ruff_cache
-uv.lock
