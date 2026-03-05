@@ -8,12 +8,14 @@
 [![PyPI version](https://img.shields.io/pypi/v/exitstatus.svg)](https://pypi.python.org/pypi/exitstatus/)
 [![PyPI status](https://img.shields.io/pypi/status/exitstatus.svg)](https://pypi.python.org/pypi/exitstatus/)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/exitstatus.svg)](https://pypi.python.org/pypi/exitstatus/)
+[![Python Blueprint][python-blueprint-badge]](https://github.com/johnthagen/python-blueprint)
 
 [github-actions-badge]: https://github.com/johnthagen/exitstatus/actions/workflows/ci.yml/badge.svg
 [uv-badge]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json
 [nox-badge]: https://img.shields.io/badge/%F0%9F%A6%8A-Nox-D85E00.svg
 [ruff-badge]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json
 [mypy-badge]: https://www.mypy-lang.org/static/mypy_badge.svg
+[python-blueprint-badge]: https://img.shields.io/badge/%F0%9F%97%BA-python--blueprint-2dcf59.svg
 
 `exitstatus` provides expressive, portable definitions for the
 [standard POSIX exit codes](https://www.gnu.org/software/libc/manual/html_node/Exit-Status.html).
