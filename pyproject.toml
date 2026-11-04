@@ -11,18 +11,17 @@ readme = "README.md"
 keywords = ["exit", "status", "POSIX"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.15",
     "Typing :: Typed",
 ]
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = []
 
 [project.urls]
@@ -45,16 +44,21 @@ lint = [
 ]
 
 [build-system]
-requires = ["uv_build>=0.9.0,<0.10.0"]
+requires = ["uv_build>=0.13.7,<0.14.0"]
 build-backend = "uv_build"
 
 [tool.uv]
 default-groups = "all"
 
 [tool.mypy]
-ignore_missing_imports = true
 strict = true
-# TODO: Remove this once Mypy bug is resolved: https://github.com/python/mypy/issues/16327
+enable_error_code = ["deprecated", "exhaustive-match", "explicit-override"]
+allow_redefinition = true
+
+[[tool.mypy.overrides]]
+module = "tests.test_exitstatus"
+# These tests intentionally compare IntEnum members with integers and distinct enum identities.
+# https://github.com/python/mypy/issues/16327
 disable_error_code = ["comparison-overlap"]
 
 [tool.ruff]
@@ -64,6 +68,7 @@ line-length = 99
 select = [
     "F",    # pyflakes
     "E",    # pycodestyle
+    "W",    # pycodestyle warnings
     "I",    # isort
     "N",    # pep8-naming
     "UP",   # pyupgrade
