@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 2.8.0 (2026-11-04)
 
 - Drop support for Python 3.10 and add support for Python 3.15.
 
